@@ -10,7 +10,7 @@
 
 def rendez(lst):
     l = lst.copy()
-    for i in range(0,len(lst)-1):       # 2 ciklus egymásban, azért
+    for i in range(0,len(lst)-1):       # 2 ciklus egymásban
         minimum = i
         for j in range(i,len(lst)):
             if lst[j][0] < lst[minimum][0]:
